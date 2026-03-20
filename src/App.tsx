@@ -11,6 +11,7 @@ import Weather from "./pages/Weather";
 import MarketPrices from "./pages/MarketPrices";
 import GovtSchemes from "./pages/GovtSchemes";
 import Dashboard from "./pages/Dashboard";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
               <Route path="/weather" element={<Weather />} />
               <Route path="/market-prices" element={<MarketPrices />} />
               <Route path="/schemes" element={<GovtSchemes />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/dashboard" element={<Dashboard />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />

@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* Login Button */}
           <Button variant="default" size="sm" className="hidden sm:flex" asChild>
-            <Link to="/dashboard">{t('common.login')}</Link>
+            <Link to="/login">{t('common.login')}</Link>
           </Button>
 
           {/* Mobile Menu Button */}
@@ -105,7 +105,7 @@ const Header = () => {
             ))}
             <div className="pt-2 px-4">
               <Button variant="default" className="w-full" asChild>
-                <Link to="/dashboard">{t('common.login')}</Link>
+                <Link to="/login">{t('common.login')}</Link>
               </Button>
             </div>
           </nav>
